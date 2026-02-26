@@ -1,0 +1,6 @@
+version: "3.9"
+
+services:
+  hello_trunk:
+    build: .
+    container_name: hello_trunk

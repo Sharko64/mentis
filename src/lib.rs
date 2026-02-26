@@ -1,6 +1,8 @@
 #![deny(unsafe_code)]
 #![deny(warnings)]
 
-pub mod greeting;
+pub mod core {
+    pub mod greeting;
+}
 
-pub use greeting::{generate_greeting, GreetingError};
+pub use core::greeting::{generate_greeting, GreetingError};

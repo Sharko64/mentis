@@ -1,0 +1,21 @@
+{
+  "name": "hello_trunk DevContainer",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/rust:1": {
+      "version": "stable"
+    }
+  },
+  "postCreateCommand": "cargo check",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rust-lang.rust-analyzer",
+        "tamasfe.even-better-toml",
+        "github.vscode-github-actions"
+      ]
+    }
+  }
+}
