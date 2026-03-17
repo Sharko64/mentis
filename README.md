@@ -1,6 +1,6 @@
-# hello_trunk
+# mentis
 
-Production-ready Rust CLI template using trunk-based development.
+Keyboard driven 9-dimensional clipboard manager.
 
 ## Features
 
